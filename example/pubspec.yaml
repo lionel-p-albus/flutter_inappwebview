@@ -12,8 +12,8 @@ version: 1.0.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
-  flutter: ">=2.5.0"
+  sdk: ">=2.14.0 <4.0.0"
+  flutter: ">=3.22.1"
 
 dependencies:
   flutter:
@@ -26,6 +26,8 @@ dependencies:
   path_provider: 2.0.9
   permission_handler: 10.0.2
   url_launcher: 6.1.6
+  firebase_core: ^3.1.0
+  firebase_messaging: ^15.0.1
   # connectivity: ^0.4.5+6
   flutter_inappwebview:
     path: ../
