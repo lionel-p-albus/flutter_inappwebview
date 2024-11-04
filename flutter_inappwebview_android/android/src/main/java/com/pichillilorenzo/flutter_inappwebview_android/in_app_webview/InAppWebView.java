@@ -99,7 +99,7 @@ import java.util.regex.Pattern;
 import io.flutter.plugin.common.MethodChannel;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static com.pichillilorenzo.flutter_inappwebview.types.PreferredContentModeOptionType.fromValue;
+import static com.pichillilorenzo.flutter_inappwebview_android.types.PreferredContentModeOptionType.fromValue;
 
 final public class InAppWebView extends InputAwareWebView implements InAppWebViewInterface {
 
@@ -465,8 +465,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
     setOnLongClickListener(new OnLongClickListener() {
       @Override
       public boolean onLongClick(View v) {
-        com.pichillilorenzo.flutter_inappwebview.types.HitTestResult hitTestResult =
-                com.pichillilorenzo.flutter_inappwebview.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
+        com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult hitTestResult =
+                com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
         channel.invokeMethod("onLongPressHitTestResult", hitTestResult.toMap());
         return false;
       }
@@ -1257,8 +1257,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   private void sendOnCreateContextMenuEvent() {
-    com.pichillilorenzo.flutter_inappwebview.types.HitTestResult hitTestResult =
-            com.pichillilorenzo.flutter_inappwebview.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
+    com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult hitTestResult =
+            com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult());
     channel.invokeMethod("onCreateContextMenu", hitTestResult.toMap());
   }
 
@@ -1703,7 +1703,7 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   @Override
-  public void postWebMessage(com.pichillilorenzo.flutter_inappwebview.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception {
+  public void postWebMessage(com.pichillilorenzo.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception {
     throw new UnsupportedOperationException();
   }
 
@@ -1770,8 +1770,8 @@ final public class InAppWebView extends InputAwareWebView implements InAppWebVie
   }
 
   @Override
-  public void getHitTestResult(ValueCallback<com.pichillilorenzo.flutter_inappwebview.types.HitTestResult> callback) {
-    callback.onReceiveValue(com.pichillilorenzo.flutter_inappwebview.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult()));
+  public void getHitTestResult(ValueCallback<com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult> callback) {
+    callback.onReceiveValue(com.pichillilorenzo.flutter_inappwebview_android.types.HitTestResult.fromWebViewHitTestResult(getHitTestResult()));
   }
 
   @Override

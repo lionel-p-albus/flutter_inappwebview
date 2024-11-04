@@ -81,7 +81,7 @@ public interface InAppWebViewInterface {
   WebMessageChannel createCompatWebMessageChannel();
   WebMessageChannel createWebMessageChannel(ValueCallback<WebMessageChannel> callback);
   void postWebMessage(WebMessage message, Uri targetOrigin);
-  void postWebMessage(com.pichillilorenzo.flutter_inappwebview.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception;
+  void postWebMessage(com.pichillilorenzo.flutter_inappwebview_android.types.WebMessage message, Uri targetOrigin, ValueCallback<String> callback) throws Exception;
   void addWebMessageListener(WebMessageListener webMessageListener) throws Exception;
   boolean canScrollVertically();
   boolean canScrollHorizontally();
