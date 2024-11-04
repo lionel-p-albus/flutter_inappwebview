@@ -24,5 +24,5 @@ A new Flutter plugin project.
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 
-  s.dependency 'OrderedSet', '~>6.0.3'
+  s.dependency 'OrderedSet', '~>5.8.0'
 end
