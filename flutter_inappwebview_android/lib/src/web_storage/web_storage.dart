@@ -188,7 +188,7 @@ class AndroidLocalStorageCreationParams
 }
 
 ///{@macro flutter_inappwebview_platform_interface.PlatformLocalStorage}
-class AndroidLocalStorage extends PlatformLocalStorage with AndroidStorage {
+class AndroidLocalStorage extends PlatformLocalStorage implements AndroidStorage {
   /// Constructs a [AndroidLocalStorage].
   AndroidLocalStorage(PlatformLocalStorageCreationParams params)
       : super.implementation(
@@ -232,7 +232,7 @@ class AndroidSessionStorageCreationParams
 }
 
 ///{@macro flutter_inappwebview_platform_interface.PlatformSessionStorage}
-class AndroidSessionStorage extends PlatformSessionStorage with AndroidStorage {
+class AndroidSessionStorage extends PlatformSessionStorage implements AndroidStorage {
   /// Constructs a [AndroidSessionStorage].
   AndroidSessionStorage(PlatformSessionStorageCreationParams params)
       : super.implementation(
