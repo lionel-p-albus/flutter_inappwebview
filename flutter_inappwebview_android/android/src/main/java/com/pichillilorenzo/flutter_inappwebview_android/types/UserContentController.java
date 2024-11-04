@@ -6,9 +6,9 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.Util;
-import com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.JavaScriptBridgeJS;
-import com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.PluginScriptsUtil;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
+import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.PluginScriptsUtil;
 
 import org.json.JSONObject;
 

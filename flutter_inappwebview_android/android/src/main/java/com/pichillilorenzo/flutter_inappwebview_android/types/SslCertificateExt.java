@@ -5,7 +5,7 @@ import android.os.Build;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
 
 import java.security.cert.CertificateEncodingException;
 import java.security.cert.X509Certificate;

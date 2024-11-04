@@ -1,7 +1,7 @@
 package com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js;
 
-import com.pichillilorenzo.flutter_inappwebview.types.PluginScript;
-import com.pichillilorenzo.flutter_inappwebview.types.UserScriptInjectionTime;
+import com.pichillilorenzo.flutter_inappwebview_android.types.PluginScript;
+import com.pichillilorenzo.flutter_inappwebview_android.types.UserScriptInjectionTime;
 
 public class OnWindowBlurEventJS {
   public static final String ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT_GROUP_NAME = "IN_APP_WEBVIEW_ON_WINDOW_BLUR_EVENT_JS_PLUGIN_SCRIPT";

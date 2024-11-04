@@ -17,9 +17,9 @@ import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.browser.customtabs.CustomTabsService;
 import androidx.browser.customtabs.CustomTabsSession;
 
-import com.pichillilorenzo.flutter_inappwebview.R;
-import com.pichillilorenzo.flutter_inappwebview.types.CustomTabsActionButton;
-import com.pichillilorenzo.flutter_inappwebview.types.CustomTabsMenuItem;
+import com.pichillilorenzo.flutter_inappwebview_android.R;
+import com.pichillilorenzo.flutter_inappwebview_android.types.CustomTabsActionButton;
+import com.pichillilorenzo.flutter_inappwebview_android.types.CustomTabsMenuItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;

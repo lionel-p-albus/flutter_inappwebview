@@ -7,9 +7,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview.types.URLCredential;
-import com.pichillilorenzo.flutter_inappwebview.types.URLProtectionSpace;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential;
+import com.pichillilorenzo.flutter_inappwebview_android.types.URLProtectionSpace;
 
 import java.util.ArrayList;
 import java.util.HashMap;

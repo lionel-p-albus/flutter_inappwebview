@@ -12,9 +12,9 @@ import androidx.webkit.WebMessageCompat;
 import androidx.webkit.WebViewCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pichillilorenzo.flutter_inappwebview.Util;
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebView;
-import com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.JavaScriptBridgeJS;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.InAppWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -7,7 +7,7 @@ import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.browser.trusted.ScreenOrientation;
 import androidx.browser.trusted.TrustedWebActivityDisplayMode;
 
-import com.pichillilorenzo.flutter_inappwebview.Options;
+import com.pichillilorenzo.flutter_inappwebview_android.Options;
 
 import java.util.ArrayList;
 import java.util.HashMap;

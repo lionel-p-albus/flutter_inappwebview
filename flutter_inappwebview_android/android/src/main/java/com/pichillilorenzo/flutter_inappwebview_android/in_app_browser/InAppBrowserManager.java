@@ -35,7 +35,7 @@ import android.webkit.MimeTypeMap;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
 
 import java.io.Serializable;
 import java.util.ArrayList;

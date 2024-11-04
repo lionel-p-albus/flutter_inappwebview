@@ -2,8 +2,8 @@ package com.pichillilorenzo.flutter_inappwebview_android.in_app_browser;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.Options;
-import com.pichillilorenzo.flutter_inappwebview.R;
+import com.pichillilorenzo.flutter_inappwebview_android.Options;
+import com.pichillilorenzo.flutter_inappwebview_android.R;
 
 import java.util.HashMap;
 import java.util.Map;

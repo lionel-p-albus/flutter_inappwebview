@@ -25,8 +25,8 @@ import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.FlutterWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.FlutterWebView;
 
 import java.util.Collection;
 import java.util.HashMap;

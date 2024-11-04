@@ -7,8 +7,8 @@ import android.util.Log;
 import android.webkit.JavascriptInterface;
 import android.webkit.ValueCallback;
 
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebView;
-import com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.JavaScriptBridgeJS;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.InAppWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
 
 import org.json.JSONArray;
 import org.json.JSONException;

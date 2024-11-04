@@ -8,10 +8,10 @@ import android.webkit.ValueCallback;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeSafariBrowserManager;
-import com.pichillilorenzo.flutter_inappwebview.credential_database.CredentialDatabaseHandler;
-import com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserManager;
-import com.pichillilorenzo.flutter_inappwebview.headless_in_app_webview.HeadlessInAppWebViewManager;
+import com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeSafariBrowserManager;
+import com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabaseHandler;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserManager;
+import com.pichillilorenzo.flutter_inappwebview_android.headless_in_app_webview.HeadlessInAppWebViewManager;
 
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;

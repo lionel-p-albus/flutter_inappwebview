@@ -1,8 +1,8 @@
 package com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js;
 
-import com.pichillilorenzo.flutter_inappwebview.types.PluginScript;
-import com.pichillilorenzo.flutter_inappwebview.types.UserContentController;
-import com.pichillilorenzo.flutter_inappwebview.types.UserScriptInjectionTime;
+import com.pichillilorenzo.flutter_inappwebview_android.types.PluginScript;
+import com.pichillilorenzo.flutter_inappwebview_android.types.UserContentController;
+import com.pichillilorenzo.flutter_inappwebview_android.types.UserScriptInjectionTime;
 
 public class PluginScriptsUtil {
 

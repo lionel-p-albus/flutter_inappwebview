@@ -19,7 +19,7 @@ import android.view.WindowMetrics;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.pichillilorenzo.flutter_inappwebview.types.Size2D;
+import com.pichillilorenzo.flutter_inappwebview_android.types.Size2D;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

@@ -3,8 +3,8 @@ package com.pichillilorenzo.flutter_inappwebview_android.types;
 import android.text.TextUtils;
 import android.webkit.ValueCallback;
 
-import com.pichillilorenzo.flutter_inappwebview.Util;
-import com.pichillilorenzo.flutter_inappwebview.plugin_scripts_js.JavaScriptBridgeJS;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.plugin_scripts_js.JavaScriptBridgeJS;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -6,8 +6,8 @@ import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
 
 import java.io.Serializable;
 import java.util.HashMap;

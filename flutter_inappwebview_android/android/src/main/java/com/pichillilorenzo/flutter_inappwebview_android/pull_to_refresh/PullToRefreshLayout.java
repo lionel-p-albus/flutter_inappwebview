@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.pichillilorenzo.flutter_inappwebview.R;
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.R;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.InAppWebView;
 
 import java.util.HashMap;
 import java.util.Map;

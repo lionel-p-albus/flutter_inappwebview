@@ -7,10 +7,10 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview.Util;
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.FlutterWebView;
-import com.pichillilorenzo.flutter_inappwebview.types.Size2D;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.FlutterWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.types.Size2D;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -5,8 +5,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.webkit.WebResourceResponse;
 
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebView;
-import com.pichillilorenzo.flutter_inappwebview.Util;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.InAppWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.Util;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

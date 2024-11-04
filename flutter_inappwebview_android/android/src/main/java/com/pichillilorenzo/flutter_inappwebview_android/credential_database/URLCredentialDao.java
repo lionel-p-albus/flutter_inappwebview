@@ -3,7 +3,7 @@ package com.pichillilorenzo.flutter_inappwebview_android.credential_database;
 import android.content.ContentValues;
 import android.database.Cursor;
 
-import com.pichillilorenzo.flutter_inappwebview.types.URLCredential;
+import com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential;
 
 import java.util.ArrayList;
 import java.util.List;

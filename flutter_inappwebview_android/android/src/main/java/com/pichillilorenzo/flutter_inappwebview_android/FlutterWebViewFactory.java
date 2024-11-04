@@ -2,9 +2,9 @@ package com.pichillilorenzo.flutter_inappwebview_android;
 
 import android.content.Context;
 
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.FlutterWebView;
-import com.pichillilorenzo.flutter_inappwebview.types.PlatformWebView;
-import com.pichillilorenzo.flutter_inappwebview.types.WebViewImplementation;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.FlutterWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.types.PlatformWebView;
+import com.pichillilorenzo.flutter_inappwebview_android.types.WebViewImplementation;
 
 import java.util.HashMap;
 

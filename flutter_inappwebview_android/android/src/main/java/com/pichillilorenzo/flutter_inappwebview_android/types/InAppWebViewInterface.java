@@ -8,9 +8,9 @@ import android.webkit.ValueCallback;
 import android.webkit.WebMessage;
 import android.webkit.WebView;
 
-import com.pichillilorenzo.flutter_inappwebview.InAppWebViewFlutterPlugin;
-import com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserDelegate;
-import com.pichillilorenzo.flutter_inappwebview.in_app_webview.InAppWebViewOptions;
+import com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserDelegate;
+import com.pichillilorenzo.flutter_inappwebview_android.in_app_webview.InAppWebViewOptions;
 
 import java.io.IOException;
 import java.util.HashMap;

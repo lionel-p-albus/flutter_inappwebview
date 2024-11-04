@@ -6,9 +6,9 @@ import android.webkit.WebSettings;
 
 import androidx.annotation.Nullable;
 
-import com.pichillilorenzo.flutter_inappwebview.Options;
-import com.pichillilorenzo.flutter_inappwebview.types.InAppWebViewInterface;
-import com.pichillilorenzo.flutter_inappwebview.types.PreferredContentModeOptionType;
+import com.pichillilorenzo.flutter_inappwebview_android.Options;
+import com.pichillilorenzo.flutter_inappwebview_android.types.InAppWebViewInterface;
+import com.pichillilorenzo.flutter_inappwebview_android.types.PreferredContentModeOptionType;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package com.pichillilorenzo.flutter_inappwebview_android.in_app_webview;
 
-import com.pichillilorenzo.flutter_inappwebview.Options;
+import com.pichillilorenzo.flutter_inappwebview_android.Options;
 
 import java.util.HashMap;
 import java.util.Map;
