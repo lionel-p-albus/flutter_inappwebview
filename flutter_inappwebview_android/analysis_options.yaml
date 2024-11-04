@@ -8,6 +8,8 @@ linter:
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
 analyzer:
+  language:
+    enableSuperMixins: true
   errors:
     deprecated_member_use: ignore
     deprecated_member_use_from_same_package: ignore
