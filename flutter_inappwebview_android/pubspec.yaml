@@ -28,6 +28,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  pedantic: ^1.11.1
   flutter_lints: ^4.0.0
   plugin_platform_interface: ^2.1.8
 
